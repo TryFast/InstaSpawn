@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "instaspawn",
+  "version": "1.0-SNAPSHOT",
+  "name": "InstaSpawn",
+  "description": "A Lightweight Mod That Teleports You To 0, 0.",
+  "authors": ["Tryfastv16"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/instaspawn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.khan.instaspawn.client.InstaspawnClient"
+    ],
+    "main": [
+      "com.khan.instaspawn.Instaspawn"
+    ]
+  },
+  "mixins": [
+    "instaspawn.mixins.json",
+    {
+      "config": "instaspawn.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
