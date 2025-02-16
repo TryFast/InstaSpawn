@@ -18,7 +18,6 @@ Fabric Mod Loader Support – Works with Fabric for Minecraft 1.20.4.
 Open-Source & Community-Driven – Contributions are welcome!
 
 Installation:
-Prerequisites
 
 Minecraft 1.20.4
 
