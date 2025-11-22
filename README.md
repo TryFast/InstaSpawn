@@ -44,6 +44,6 @@ If you encounter any issues or have feature requests, please open an issue in th
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Credits:
-Developed by TryFastv16.
+Developed by `TryFastv16.`
 
 # ⭐ If you like this mod, consider giving the repository a star!
